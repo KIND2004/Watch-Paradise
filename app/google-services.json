@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "458013461906",
+    "project_id": "watchparadise-69370",
+    "storage_bucket": "watchparadise-69370.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:458013461906:android:3bd0c2cd5e21d24e69454b",
+        "android_client_info": {
+          "package_name": "lk.xrontech.watchparadise"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMIti0yhWggSJNvpu-jhkHXCMPMT0t76g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

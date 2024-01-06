@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme_color_body"
+    tools:context=".fragment.MyAccountFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageButton
+                    android:id="@+id/imageUserProfilePic"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/custom_image_round"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/baseline_image_24" />
+
+                <EditText
+                    android:id="@+id/txtUserFullName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/custom_search_bar"
+                    android:hint="@string/full_name"
+                    android:inputType="text"
+                    android:padding="10dp" />
+
+                <TextView
+                    android:id="@+id/txtUserEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/custom_search_bar"
+                    android:padding="10dp"
+                    android:paddingStart="10dp"
+                    android:text="@string/email"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/txtUserAddressNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/custom_search_bar"
+                    android:hint="@string/address_no"
+                    android:inputType="text"
+                    android:padding="10dp" />
+
+                <EditText
+                    android:id="@+id/txtUserStreetName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/custom_search_bar"
+                    android:hint="@string/street_name"
+                    android:inputType="text"
+                    android:padding="10dp" />
+
+                <EditText
+                    android:id="@+id/txtUserCity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/custom_search_bar"
+                    android:hint="@string/city"
+                    android:inputType="text"
+                    android:padding="10dp" />
+
+                <EditText
+                    android:id="@+id/txtUserZipCode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/custom_search_bar"
+                    android:hint="@string/zip_code"
+                    android:inputType="numberDecimal"
+                    android:padding="10dp" />
+
+                <Button
+                    android:id="@+id/btnUpdateProfile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/quicksand_bold"
+                    android:text="@string/update_profile"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/btnSendResetPasswordLink"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/quicksand_bold"
+                    android:text="@string/reset_password"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/btnLogout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/quicksand_bold"
+                    android:text="@string/logout"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</FrameLayout>

@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">WatchParadise</string>
+    <string name="search">Search on Watch Paradise</string>
+    <string name="home">Home</string>
+    <string name="my_account">My Account</string>
+    <string name="inbox">Inbox</string>
+    <string name="selling">Selling</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cart">Cart</string>
+    <string name="watchlist">Wishlist</string>
+    <string name="settings">Settings</string>
+    <string name="login">Log In</string>
+    <string name="logout">Log Out</string>
+    <string name="drawer_open">Open Navigation</string>
+    <string name="drawer_close">Close Navigation</string>
+    <string name="signup">Sign Up</string>
+    <string name="login_title">Sign In to your Account</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="signup_title">Create a New Account</string>
+    <string name="see_more">See More</string>
+    <string name="testDescription">Color White\nStainless Steel\nWaterproof</string>
+    <string name="payment_shipping_details"><![CDATA[Payment & Shipping Details]]></string>
+    <string name="latest_watches">Latest Watches</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="zip_code">Zip Code</string>
+    <string name="city">City</string>
+    <string name="street_name">Street Name</string>
+    <string name="address_no">Address No</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="full_name">Full Name</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="copyright">\@ Watch Paradise 2023</string>
+    <string name="version">V 1.0.0</string>
+    <string name="forgot_password">Forgot Password</string>
+</resources>
